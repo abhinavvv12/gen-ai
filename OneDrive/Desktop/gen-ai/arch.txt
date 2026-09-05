@@ -1,0 +1,17 @@
+4 layers architecture
+
+UI(describes what you want to show to the user)
+=>component
+=>pages
+
+Hook (to manage State and API layers)
+=>hooks
+
+State (to store data in the frontend)
+=>auth.context.jsx
+=>ai.context.jsx
+
+
+API(used for frontend and backend communication)
+=>services(created inside auth folder)
+    =>auth.api.js
